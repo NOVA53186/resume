@@ -1,5 +1,3 @@
-# Resume
-
 <!DOCTYPE html>
 <html>
 <head>
