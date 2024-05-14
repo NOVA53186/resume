@@ -1,4 +1,4 @@
 # Resume
 
 ### Map view
-<iframe src="resume/Test_Resume.geojson">
+<script src="resume/Test_Resume.geojson"`></script>
