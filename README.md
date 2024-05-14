@@ -1,3 +1,0 @@
-# Resume
-
-### Map view
