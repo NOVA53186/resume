@@ -30,7 +30,7 @@
         }).addTo(map);
 
         // Load GeoJSON file
-        fetch('/assets/map.geojson')
+        fetch('assets/map.geojson')
             .then(response => response.json())
             .then(data => {
                 // Add GeoJSON layer to the map
