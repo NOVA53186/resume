@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esri World Imagery Globe</title>
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+ //   <!-- Leaflet CSS -->
+ //   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
 
-    <!-- Leaflet JavaScript -->
-   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+ //   <!-- Leaflet JavaScript -->
+ //  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     
-    <style>
-        #map {
-            height: 600px;
-            width: 100%;
-        }
-    </style>
+ //   <style>
+ //       #map {
+ //           height: 600px;
+ //           width: 100%;
+ //       }
+ //   </style>
 </head>
 <body>
+    <style>
+        /* Adjust the dimensions of the container element */
+        .embedded-geojson-container {
+            height: 600px; /* Adjust the height as needed */
+            width: 100%; /* Adjust the width as needed */
+        }
+    </style>
+    
   <script src="https://embed.github.com/view/geojson/nova53186/resume/map.geojson>"></script>
+
+    <!-- Container element to hold the embedded content -->
+    <div class="embedded-geojson-container"></div>
+    
 </body>
 </html>
