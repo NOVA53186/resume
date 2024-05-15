@@ -34,13 +34,12 @@
             maxZoom: 17
         }).addTo(map);
 
-// Load GeoJSON file
-        fetch('https://nova53186.github.io/resume/map.geojson')
-            .then(response => response.json())
-            .then(data => {
-                // Add GeoJSON layer to the map
-                L.geoJSON(data).addTo(map);
-            });
+// Load and add GeoJSON data
+fetch('https://53186nova.github.io/resume/map.geojson')
+    .then(response => response.json())
+    .then(data => {
+        L.geoJSON(data).addTo(map);
+    });
 
     </script>
 </body>
